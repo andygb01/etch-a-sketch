@@ -1,0 +1,41 @@
+body {
+    background-color: lightgray;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    width: 200px;
+  }
+
+  button.active {
+      background-color: lightgray;
+  }
+
+  .grid {
+    display: grid;
+    align-self: flex-end;
+    width: 500px;
+    height: 500px;
+    background-color: #fefefe;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 12px;
+  }
